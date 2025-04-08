@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		416687432DA26EFD006E9423 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4166873A2DA26EFD006E9423 /* landmarkData.json */; };
+		416687442DA26EFD006E9423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416687402DA26EFD006E9423 /* Assets.xcassets */; };
+		416687452DA26EFD006E9423 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416687372DA26EFD006E9423 /* Landmark.swift */; };
+		416687462DA26EFD006E9423 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416687382DA26EFD006E9423 /* ModelData.swift */; };
+		416687472DA26EFD006E9423 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166873C2DA26EFD006E9423 /* CircleImage.swift */; };
+		416687482DA26EFD006E9423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166873D2DA26EFD006E9423 /* ContentView.swift */; };
+		416687492DA26EFD006E9423 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166873E2DA26EFD006E9423 /* MapView.swift */; };
+		4166874A2DA26EFD006E9423 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416687412DA26EFD006E9423 /* LandmarksApp.swift */; };
+		4166874C2DA270BB006E9423 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166874B2DA270BB006E9423 /* LandmarkRow.swift */; };
+		4166874E2DA457A8006E9423 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166874D2DA457A8006E9423 /* LandmarkList.swift */; };
+		416687502DA45FDE006E9423 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166874F2DA45FDE006E9423 /* LandmarkDetail.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4166871A2DA25A40006E9423 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416687372DA26EFD006E9423 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		416687382DA26EFD006E9423 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		4166873A2DA26EFD006E9423 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		4166873C2DA26EFD006E9423 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4166873D2DA26EFD006E9423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4166873E2DA26EFD006E9423 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		416687402DA26EFD006E9423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416687412DA26EFD006E9423 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		4166874B2DA270BB006E9423 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
+		4166874D2DA457A8006E9423 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		4166874F2DA45FDE006E9423 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4166871C2DA25A40006E9423 /* Landmarks */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Landmarks;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		416687172DA25A40006E9423 /* Frameworks */ = {
@@ -32,7 +49,8 @@
 		416687112DA25A40006E9423 = {
 			isa = PBXGroup;
 			children = (
-				4166871C2DA25A40006E9423 /* Landmarks */,
+				416687422DA26EFD006E9423 /* Landmarks */,
+				416687402DA26EFD006E9423 /* Assets.xcassets */,
 				4166871B2DA25A40006E9423 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +61,47 @@
 				4166871A2DA25A40006E9423 /* Landmarks.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		416687392DA26EFD006E9423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				416687382DA26EFD006E9423 /* ModelData.swift */,
+				416687372DA26EFD006E9423 /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4166873B2DA26EFD006E9423 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4166873A2DA26EFD006E9423 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4166873F2DA26EFD006E9423 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4166873D2DA26EFD006E9423 /* ContentView.swift */,
+				4166874D2DA457A8006E9423 /* LandmarkList.swift */,
+				4166874B2DA270BB006E9423 /* LandmarkRow.swift */,
+				4166874F2DA45FDE006E9423 /* LandmarkDetail.swift */,
+				4166873E2DA26EFD006E9423 /* MapView.swift */,
+				4166873C2DA26EFD006E9423 /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		416687422DA26EFD006E9423 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				416687412DA26EFD006E9423 /* LandmarksApp.swift */,
+				4166873F2DA26EFD006E9423 /* Views */,
+				416687392DA26EFD006E9423 /* Model */,
+				4166873B2DA26EFD006E9423 /* Resources */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +118,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4166871C2DA25A40006E9423 /* Landmarks */,
 			);
 			name = Landmarks;
 			packageProductDependencies = (
@@ -109,6 +165,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416687432DA26EFD006E9423 /* landmarkData.json in Resources */,
+				416687442DA26EFD006E9423 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416687452DA26EFD006E9423 /* Landmark.swift in Sources */,
+				416687462DA26EFD006E9423 /* ModelData.swift in Sources */,
+				416687472DA26EFD006E9423 /* CircleImage.swift in Sources */,
+				4166874E2DA457A8006E9423 /* LandmarkList.swift in Sources */,
+				416687502DA45FDE006E9423 /* LandmarkDetail.swift in Sources */,
+				416687482DA26EFD006E9423 /* ContentView.swift in Sources */,
+				416687492DA26EFD006E9423 /* MapView.swift in Sources */,
+				4166874C2DA270BB006E9423 /* LandmarkRow.swift in Sources */,
+				4166874A2DA26EFD006E9423 /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +328,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
